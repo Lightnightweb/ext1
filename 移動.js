@@ -14,9 +14,11 @@ class StrictEqualityExtension {
 
     }
     idou(){
-        document.addEventListener("visibilitychange", () => {
+        return{
+            document.addEventListener("visibilitychange", () => {
            return document.visibilityState === "visible"
         });
+    }
     }
   }
   Scratch.extensions.register(new StrictEqualityExtension());
