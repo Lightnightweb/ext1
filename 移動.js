@@ -17,7 +17,7 @@ class StrictEqualityExtension {
         return(
             document.addEventListener("visibilitychange", () => {
            return document.visibilityState === "visible"
-        });
+        })
         )
     }
   }
